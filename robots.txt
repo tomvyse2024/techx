@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tomvyse2024.github.io/techx/sitemap.xml
