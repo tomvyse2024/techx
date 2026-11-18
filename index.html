@@ -2,310 +2,408 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#080b12">
-  <meta name="description" content="Tech X - Computer Sales, IT Services and Accessories.">
-  <title>TECH X | Technology. Beyond Limits.</title>
-
-  <link rel="icon" href="logo.png">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080b10">
+<meta name="description" content="Tech X - Computer Sales, IT Services, Printer, Scanner, Networking and Accessories.">
+<title>TECH X | Technology Beyond Limits</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <!-- Background Effects -->
-  <div class="bg-grid"></div>
-  <div class="glow glow-1"></div>
-  <div class="glow glow-2"></div>
+<div class="grid-bg"></div>
+<div class="ambient ambient-1"></div>
+<div class="ambient ambient-2"></div>
 
-  <!-- Navigation -->
-  <header class="navbar">
-    <a href="#home" class="brand">
-      <img src="logo.png" alt="Tech X Logo">
-      <span>TECH <b>X</b></span>
-    </a>
+<!-- NAVBAR -->
+<header class="navbar">
+  <a href="#home" class="logo">
+    <span class="logo-icon"><span>X</span></span>
+    <span class="logo-name">TECH<span class="blue">X</span></span>
+  </a>
 
-    <nav class="nav-links" id="navLinks">
-      <a href="#home">Home</a>
-      <a href="#products">Products</a>
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#contact" class="nav-contact">Contact ↗</a>
-    </nav>
+  <nav id="nav">
+    <a href="#home">HOME</a>
+    <a href="#products">PRODUCTS</a>
+    <a href="#services">SERVICES</a>
+    <a href="#about">ABOUT</a>
+    <a href="#contact" class="nav-cta">CONTACT ↗</a>
+  </nav>
 
-    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
-      <span></span><span></span><span></span>
-    </button>
-  </header>
+  <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+    <i></i><i></i><i></i>
+  </button>
+</header>
 
-  <!-- Hero -->
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-content reveal">
-        <div class="status">
-          <span class="status-dot"></span>
-          YOUR TECHNOLOGY PARTNER
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-left reveal">
+    <div class="eyebrow"><span class="live-dot"></span> YOUR TECHNOLOGY PARTNER</div>
+
+    <h1>
+      POWER YOUR<br>
+      <span class="gradient">DIGITAL WORLD.</span>
+    </h1>
+
+    <p class="hero-description">
+      Technology for everyday life. From computers and accessories
+      to printers, networking and professional IT solutions.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#products" class="btn-primary">EXPLORE PRODUCTS <span>↗</span></a>
+      <a href="#services" class="btn-secondary">OUR SERVICES</a>
+    </div>
+
+    <div class="hero-bottom">
+      <div class="hero-mini">
+        <span>01</span>
+        <div>COMPUTER<br>& HARDWARE</div>
+      </div>
+      <div class="hero-mini">
+        <span>02</span>
+        <div>ACCESSORIES<br>& DEVICES</div>
+      </div>
+      <div class="hero-mini">
+        <span>03</span>
+        <div>IT SERVICES<br>& SOLUTIONS</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CSS DRAWN PC -->
+  <div class="hero-art reveal">
+    <div class="art-circle circle-outer"></div>
+    <div class="art-circle circle-inner"></div>
+    <div class="art-cross cross1"></div>
+    <div class="art-cross cross2"></div>
+
+    <div class="hero-computer">
+      <div class="hero-monitor">
+        <div class="monitor-screen">
+          <div class="screen-wallpaper">
+            <div class="wallpaper-orb"></div>
+            <div class="wallpaper-lines"></div>
+            <div class="screen-logo">TECH<span>X</span></div>
+            <div class="screen-caption">SYSTEM ONLINE</div>
+          </div>
         </div>
-
-        <h1>
-          TECHNOLOGY.<br>
-          <span class="gradient-text">BEYOND LIMITS.</span>
-        </h1>
-
-        <p class="hero-desc">
-          Power your digital world with the right technology.
-          Computer solutions, premium accessories and professional
-          IT services — all in one place.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#products" class="btn btn-primary">EXPLORE PRODUCTS ↗</a>
-          <a href="#services" class="btn btn-outline">OUR SERVICES</a>
-        </div>
-
-        <div class="hero-stats">
-          <div>
-            <strong>PC</strong>
-            <small>COMPUTER SALES</small>
-          </div>
-          <div>
-            <strong>IT</strong>
-            <small>TECHNICAL SUPPORT</small>
-          </div>
-          <div>
-            <strong>∞</strong>
-            <small>TECH POSSIBILITIES</small>
-          </div>
+        <div class="monitor-bottom">
+          <span></span>
         </div>
       </div>
-
-      <div class="hero-visual reveal">
-        <div class="orbit orbit-1"></div>
-        <div class="orbit orbit-2"></div>
-
-        <div class="tech-core">
-          <img src="logo.png" alt="Tech X" class="hero-logo">
-          <div class="core-text">TECH X</div>
-          <div class="core-sub">FUTURE IS NOW</div>
+      <div class="monitor-neck"></div>
+      <div class="monitor-foot"></div>
+      <div class="hero-case">
+        <div class="case-glass">
+          <div class="fan fan1"><i></i></div>
+          <div class="fan fan2"><i></i></div>
+          <div class="fan fan3"><i></i></div>
+          <div class="case-light"></div>
         </div>
-
-        <div class="float-card card-top">
-          <span class="card-icon">⌘</span>
-          <div>
-            <b>COMPUTER</b>
-            <small>Performance & Power</small>
-          </div>
-        </div>
-
-        <div class="float-card card-bottom">
-          <span class="card-icon">⚡</span>
-          <div>
-            <b>TECH SOLUTIONS</b>
-            <small>Smart. Reliable. Efficient.</small>
-          </div>
-        </div>
-      </div>
-
-      <div class="scroll-indicator">
-        <span></span> SCROLL TO EXPLORE
-      </div>
-    </section>
-
-    <!-- Marquee -->
-    <div class="marquee">
-      <div class="marquee-track">
-        <span>COMPUTER SALES</span><i>✦</i>
-        <span>IT SERVICES</span><i>✦</i>
-        <span>TECH ACCESSORIES</span><i>✦</i>
-        <span>SMART SOLUTIONS</span><i>✦</i>
-        <span>COMPUTER SALES</span><i>✦</i>
-        <span>IT SERVICES</span><i>✦</i>
-        <span>TECH ACCESSORIES</span><i>✦</i>
-        <span>SMART SOLUTIONS</span><i>✦</i>
+        <div class="case-side"></div>
       </div>
     </div>
 
-    <!-- Products -->
-    <section class="section" id="products">
-      <div class="section-heading reveal">
-        <div class="section-tag">01 / PRODUCTS</div>
-        <h2>TECH THAT<br><span class="gradient-text">MOVES YOU.</span></h2>
-        <p>Explore technology built for work, creativity, gaming and everyday life.</p>
-      </div>
+    <div class="floating-tag tag-one">
+      <span class="tag-icon">⚡</span>
+      <div><b>HIGH PERFORMANCE</b><small>POWER YOUR WORK</small></div>
+    </div>
 
-      <div class="product-grid">
-        <a href="#contact" class="product-card reveal">
-          <div class="product-visual visual-pc">
-            <div class="device pc-device">
-              <div class="monitor"><div class="screen-glow"></div></div>
-              <div class="monitor-stand"></div>
-              <div class="pc-case">
-                <div class="case-light"></div>
-              </div>
+    <div class="floating-tag tag-two">
+      <span class="tag-icon">⌘</span>
+      <div><b>TECHNOLOGY</b><small>BEYOND LIMITS</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORY BAR -->
+<div class="category-strip">
+  <div class="strip-track">
+    <span>COMPUTERS</span><b>✦</b>
+    <span>LAPTOPS</span><b>✦</b>
+    <span>ACCESSORIES</span><b>✦</b>
+    <span>PRINTERS</span><b>✦</b>
+    <span>SCANNERS</span><b>✦</b>
+    <span>NETWORKING</span><b>✦</b>
+    <span>COMPUTERS</span><b>✦</b>
+    <span>LAPTOPS</span><b>✦</b>
+    <span>ACCESSORIES</span><b>✦</b>
+    <span>PRINTERS</span><b>✦</b>
+    <span>SCANNERS</span><b>✦</b>
+    <span>NETWORKING</span><b>✦</b>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<section class="section" id="products">
+  <div class="section-header reveal">
+    <div class="section-label">01 / PRODUCTS</div>
+    <h2>TECHNOLOGY<br><span class="gradient">FOR EVERY NEED.</span></h2>
+    <p>Explore our technology categories, from everyday essentials to professional equipment.</p>
+  </div>
+
+  <div class="product-grid">
+
+    <!-- DESKTOP -->
+    <a href="#contact" class="product-card reveal">
+      <div class="product-art art-desktop">
+        <span class="art-number">01</span>
+        <div class="desktop-illustration">
+          <div class="pc-monitor">
+            <div class="pc-screen"><div class="screen-abstract"></div></div>
+          </div>
+          <div class="pc-stand"></div>
+          <div class="pc-base"></div>
+          <div class="pc-tower">
+            <div class="tower-glass">
+              <div class="tower-fan tf1"></div>
+              <div class="tower-fan tf2"></div>
+              <div class="tower-fan tf3"></div>
             </div>
-            <span class="visual-label">01</span>
+            <div class="tower-led"></div>
           </div>
-          <div class="product-info">
-            <div>
-              <h3>Desktop & PC</h3>
-              <p>Custom builds / Office / Gaming</p>
-            </div>
-            <span class="arrow">↗</span>
-          </div>
-        </a>
-
-        <a href="#contact" class="product-card reveal">
-          <div class="product-visual visual-laptop">
-            <div class="laptop-art">
-              <div class="laptop-screen">
-                <div class="screen-lines"></div>
-              </div>
-              <div class="laptop-base"></div>
-            </div>
-            <span class="visual-label">02</span>
-          </div>
-          <div class="product-info">
-            <div>
-              <h3>Laptops</h3>
-              <p>Portable power / Productivity</p>
-            </div>
-            <span class="arrow">↗</span>
-          </div>
-        </a>
-
-        <a href="#contact" class="product-card reveal">
-          <div class="product-visual visual-accessories">
-            <div class="accessory-art">
-              <div class="keyboard-art"></div>
-              <div class="mouse-art"></div>
-              <div class="headphone-art"></div>
-            </div>
-            <span class="visual-label">03</span>
-          </div>
-          <div class="product-info">
-            <div>
-              <h3>Accessories</h3>
-              <p>Keyboard / Mouse / Components</p>
-            </div>
-            <span class="arrow">↗</span>
-          </div>
-        </a>
-
-        <a href="#contact" class="product-card reveal">
-          <div class="product-visual visual-network">
-            <div class="network-art">
-              <div class="router-art">
-                <span></span><span></span><span></span>
-              </div>
-              <div class="network-ring"></div>
-            </div>
-            <span class="visual-label">04</span>
-          </div>
-          <div class="product-info">
-            <div>
-              <h3>Networking</h3>
-              <p>Wi-Fi / Router / Network Devices</p>
-            </div>
-            <span class="arrow">↗</span>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Services -->
-    <section class="section services-section" id="services">
-      <div class="section-heading reveal">
-        <div class="section-tag">02 / SERVICES</div>
-        <h2>WE FIX.<br><span class="gradient-text">WE UPGRADE.</span></h2>
-        <p>Reliable solutions to keep your devices running at their best.</p>
-      </div>
-
-      <div class="service-list">
-        <div class="service-item reveal">
-          <span class="service-number">01</span>
-          <div class="service-main">
-            <h3>Computer Repair & Troubleshooting</h3>
-            <p>Diagnosing hardware issues and resolving system problems.</p>
-          </div>
-          <span class="service-arrow">↗</span>
-        </div>
-
-        <div class="service-item reveal">
-          <span class="service-number">02</span>
-          <div class="service-main">
-            <h3>Windows & Software Installation</h3>
-            <p>Operating systems, drivers, applications and system setup.</p>
-          </div>
-          <span class="service-arrow">↗</span>
-        </div>
-
-        <div class="service-item reveal">
-          <span class="service-number">03</span>
-          <div class="service-main">
-            <h3>Hardware Upgrade</h3>
-            <p>SSD, RAM and component upgrades for better performance.</p>
-          </div>
-          <span class="service-arrow">↗</span>
-        </div>
-
-        <div class="service-item reveal">
-          <span class="service-number">04</span>
-          <div class="service-main">
-            <h3>Network & IT Setup</h3>
-            <p>Wi-Fi, printers, networking and business IT equipment setup.</p>
-          </div>
-          <span class="service-arrow">↗</span>
         </div>
       </div>
-    </section>
-
-    <!-- About -->
-    <section class="about-section" id="about">
-      <div class="about-inner reveal">
-        <div class="section-tag">03 / ABOUT TECH X</div>
-        <h2>MORE THAN TECH.<br><span class="gradient-text">A BETTER EXPERIENCE.</span></h2>
-        <p>
-          Tech X is focused on making technology simple, accessible
-          and reliable. From choosing the right computer to solving
-          technical problems, we bring the tools and support you need
-          to move forward.
-        </p>
-        <div class="about-line"></div>
-        <div class="about-bottom">
-          <span>SMART TECHNOLOGY</span>
-          <span>RELIABLE SERVICE</span>
-          <span>BETTER PERFORMANCE</span>
-        </div>
+      <div class="product-caption">
+        <div><h3>Desktop Computers</h3><p>Office · Gaming · Custom PC</p></div>
+        <span class="product-arrow">↗</span>
       </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="section contact-section" id="contact">
-      <div class="contact-box reveal">
-        <div class="section-tag">04 / GET IN TOUCH</div>
-        <h2>LET'S MAKE<br><span class="gradient-text">IT HAPPEN.</span></h2>
-        <p>Need a computer, accessories or technical support?<br>Let's find the right solution for you.</p>
-
-        <div class="contact-actions">
-          <!-- Replace # with your Facebook page URL -->
-          <a href="#" class="btn btn-primary" id="facebookLink">FACEBOOK ↗</a>
-          <!-- Replace number with your phone number -->
-          <a href="#" class="btn btn-outline" id="phoneLink">CONTACT US</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <a href="#home" class="footer-brand">
-      <img src="logo.png" alt="Tech X">
-      TECH <b>X</b>
     </a>
-    <p>TECHNOLOGY. BEYOND LIMITS.</p>
-    <span>© <span id="year"></span> TECH X. ALL RIGHTS RESERVED.</span>
-  </footer>
 
-  <script src="script.js"></script>
+    <!-- LAPTOP -->
+    <a href="#contact" class="product-card reveal">
+      <div class="product-art art-laptop">
+        <span class="art-number">02</span>
+        <div class="laptop-illustration">
+          <div class="laptop-display">
+            <div class="laptop-wallpaper"></div>
+          </div>
+          <div class="laptop-keyboard">
+            <div class="keys"></div>
+            <div class="trackpad"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product-caption">
+        <div><h3>Laptops</h3><p>Work · Study · Performance</p></div>
+        <span class="product-arrow">↗</span>
+      </div>
+    </a>
+
+    <!-- ACCESSORIES -->
+    <a href="#contact" class="product-card reveal">
+      <div class="product-art art-accessories">
+        <span class="art-number">03</span>
+        <div class="accessory-scene">
+          <div class="keyboard">
+            <div class="keyboard-keys"></div>
+            <div class="keyboard-glow"></div>
+          </div>
+          <div class="gaming-mouse">
+            <div class="mouse-wheel"></div>
+            <div class="mouse-line"></div>
+          </div>
+          <div class="headset">
+            <div class="headband"></div>
+            <div class="ear ear-left"></div>
+            <div class="ear ear-right"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product-caption">
+        <div><h3>Accessories</h3><p>Keyboard · Mouse · Headset</p></div>
+        <span class="product-arrow">↗</span>
+      </div>
+    </a>
+
+    <!-- PRINTER -->
+    <a href="#contact" class="product-card reveal">
+      <div class="product-art art-printer">
+        <span class="art-number">04</span>
+        <div class="printer-illustration">
+          <div class="printer-paper"></div>
+          <div class="printer-top"></div>
+          <div class="printer-body">
+            <div class="printer-display"></div>
+            <div class="printer-button"></div>
+          </div>
+          <div class="printer-output"></div>
+        </div>
+      </div>
+      <div class="product-caption">
+        <div><h3>Printers</h3><p>Inkjet · Laser · Office</p></div>
+        <span class="product-arrow">↗</span>
+      </div>
+    </a>
+
+    <!-- SCANNER -->
+    <a href="#contact" class="product-card reveal">
+      <div class="product-art art-scanner">
+        <span class="art-number">05</span>
+        <div class="scanner-illustration">
+          <div class="scanner-lid"></div>
+          <div class="scanner-glass"></div>
+          <div class="scanner-body">
+            <div class="scanner-control"></div>
+            <div class="scanner-front"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product-caption">
+        <div><h3>Scanners</h3><p>Document · Barcode · Data Capture</p></div>
+        <span class="product-arrow">↗</span>
+      </div>
+    </a>
+
+    <!-- ROUTER -->
+    <a href="#contact" class="product-card reveal">
+      <div class="product-art art-router">
+        <span class="art-number">06</span>
+        <div class="router-illustration">
+          <div class="router-antenna ant1"></div>
+          <div class="router-antenna ant2"></div>
+          <div class="router-antenna ant3"></div>
+          <div class="router-body">
+            <div class="router-wave">)))</div>
+            <div class="router-leds"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="product-caption">
+        <div><h3>Networking</h3><p>Router · Wi-Fi · Switches</p></div>
+        <span class="product-arrow">↗</span>
+      </div>
+    </a>
+
+    <!-- COMPONENTS -->
+    <a href="#contact" class="product-card reveal">
+      <div class="product-art art-components">
+        <span class="art-number">07</span>
+        <div class="component-scene">
+          <div class="ram-stick">
+            <div class="ram-chips"><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="ssd">
+            <div class="ssd-label">NVMe<br><b>SSD</b></div>
+          </div>
+          <div class="usb-drive">
+            <div class="usb-metal"></div>
+          </div>
+      </div>
+      <div class="product-caption">
+        <div><h3>Components</h3><p>RAM · SSD · USB · Hardware</p></div>
+        <span class="product-arrow">↗</span>
+      </div>
+    </a>
+
+    <!-- OFFICE -->
+    <a href="#contact" class="product-card reveal">
+      <div class="product-art art-office">
+        <span class="art-number">08</span>
+        <div class="office-scene">
+          <div class="tablet-device">
+            <div class="tablet-screen"><div class="tablet-ui"></div></div>
+          </div>
+          <div class="smart-device">
+            <div class="smart-screen"></div>
+          </div>
+          <div class="usb-hub">
+            <div class="hub-ports"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product-caption">
+        <div><h3>Office Devices</h3><p>Tablet · USB Hub · Smart Devices</p></div>
+        <span class="product-arrow">↗</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services section" id="services">
+  <div class="section-header reveal">
+    <div class="section-label">02 / SERVICES</div>
+    <h2>WE KEEP YOUR<br><span class="gradient">TECH RUNNING.</span></h2>
+    <p>Professional support and practical solutions for your technology.</p>
+  </div>
+
+  <div class="service-list">
+    <div class="service-row reveal">
+      <span class="service-no">01</span>
+      <div><h3>Computer Repair</h3><p>Hardware diagnosis, troubleshooting and repair.</p></div>
+      <span class="service-icon">⌁</span>
+    </div>
+    <div class="service-row reveal">
+      <span class="service-no">02</span>
+      <div><h3>Windows & Software</h3><p>Operating system installation, software and setup.</p></div>
+      <span class="service-icon">⌘</span>
+    </div>
+    <div class="service-row reveal">
+      <span class="service-no">03</span>
+      <div><h3>Upgrade & Optimization</h3><p>SSD, RAM upgrades and performance improvement.</p></div>
+      <span class="service-icon">↗</span>
+    </div>
+    <div class="service-row reveal">
+      <span class="service-no">04</span>
+      <div><h3>Printer & Scanner Setup</h3><p>Installation, connection and configuration.</p></div>
+      <span class="service-icon">▣</span>
+    </div>
+    <div class="service-row reveal">
+      <span class="service-no">05</span>
+      <div><h3>Network Solutions</h3><p>Router, Wi-Fi, LAN and network installation.</p></div>
+      <span class="service-icon">⌁</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="about-content reveal">
+    <div class="section-label">03 / WHO WE ARE</div>
+    <div class="about-logo">
+      <span class="about-tech">TECH</span><span class="about-x">X</span>
+    </div>
+    <h2>TECHNOLOGY<br>BEYOND LIMITS.</h2>
+    <p>
+      Technology should make life easier. Tech X brings together
+      computers, accessories and technical services to help you
+      work smarter, connect better and move forward.
+    </p>
+    <div class="about-points">
+      <span>01 — SMART SOLUTIONS</span>
+      <span>02 — QUALITY TECHNOLOGY</span>
+      <span>03 — RELIABLE SUPPORT</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section section" id="contact">
+  <div class="contact-box reveal">
+    <div class="section-label">04 / CONTACT</div>
+    <h2>LET'S CONNECT<br><span class="gradient">WITH TECH X.</span></h2>
+    <p>Looking for a device, accessory or technical support?<br>We're ready to help.</p>
+    <div class="contact-buttons">
+      <a href="#" id="facebookBtn" class="btn-primary">FACEBOOK ↗</a>
+      <a href="#" id="messengerBtn" class="btn-secondary">MESSENGER ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <a href="#home" class="logo footer-logo">
+    <span class="logo-icon"><span>X</span></span>
+    <span class="logo-name">TECH<span class="blue">X</span></span>
+  </a>
+  <div class="footer-middle">TECHNOLOGY. BEYOND LIMITS.</div>
+  <div class="copyright">© <span id="year"></span> TECH X</div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
